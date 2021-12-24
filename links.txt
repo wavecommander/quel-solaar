@@ -1,0 +1,10 @@
+Quel Solaar Documentation: https://gamepipeline.org/index.html
+
+Videos:
+How I Program C https://www.youtube.com/watch?v=443UNeGrFoM
+Tools General Usage Overview https://www.youtube.com/watch?v=khmFGThc5TI
+OPA Live C Program Debugger https://www.youtube.com/watch?v=pvkn9Xz-xks
+Confuse Animation Demo https://www.youtube.com/watch?v=u0VnCdtCFCQ
+Overview of LOVE Game Tech https://www.youtube.com/watch?v=f90R2taD1WQ
+Seduce tutorial https://www.youtube.com/watch?v=GGLwJNc-EeQ
+
