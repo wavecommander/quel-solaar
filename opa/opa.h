@@ -1,0 +1,1 @@
+extern void opa_watch(void *pointer, char *type_name, char *file_name);
