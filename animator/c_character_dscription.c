@@ -1,0 +1,84 @@
+#include "st_types.h"
+#include "confuse.h"
+
+
+void c_character_load(CCharDesc *desc)
+{
+	uint i, j;
+	float pos[3];
+	desc->head_size = 0.120492;
+	desc->neck_length = 0.080338;
+	desc->neck_pos = -0.181268;
+	desc->torso_size = 0.262415;
+	desc->torso_width = 0.179310;
+	desc->torso_lean = 0.000000;
+	desc->stomach_size = 0.214248;
+	desc->butt_size = 0.142928;
+	desc->butt_width = 0.121711;
+	desc->body_length = 0.000000;
+	desc->arms_size = 0.610958;
+	desc->legs_size = 0.740537;
+	desc->legs_dir = 1.000000;
+	desc->clearance = 0.900000;
+	desc->default_pose[0].pos[0] = 0.000000;
+	desc->default_pose[0].pos[1] = 0.000000;
+	desc->default_pose[0].pos[2] = 0.000000;
+	desc->default_pose[0].time = 0.000000;
+	desc->default_pose[0].space = 0;
+	desc->default_pose[1].pos[0] = 0.000000;
+	desc->default_pose[1].pos[1] = 0.524831;
+	desc->default_pose[1].pos[2] = 0.000000;
+	desc->default_pose[1].time = 0.000000;
+	desc->default_pose[1].space = 0;
+	desc->default_pose[2].pos[0] = 0.000000;
+	desc->default_pose[2].pos[1] = 0.262415;
+	desc->default_pose[2].pos[2] = 0.000000;
+	desc->default_pose[2].time = 0.000000;
+	desc->default_pose[2].space = 0;
+	desc->default_pose[3].pos[0] = 1.199999;
+	desc->default_pose[3].pos[1] = -0.500000;
+	desc->default_pose[3].pos[2] = -0.000000;
+	desc->default_pose[3].time = 0.000000;
+	desc->default_pose[3].space = 2;
+	desc->default_pose[4].pos[0] = -1.199999;
+	desc->default_pose[4].pos[1] = -0.500000;
+	desc->default_pose[4].pos[2] = 0.000000;
+	desc->default_pose[4].time = 0.000000;
+	desc->default_pose[4].space = 2;
+	desc->default_pose[5].pos[0] = 1.499999;
+	desc->default_pose[5].pos[1] = -1.000000;
+	desc->default_pose[5].pos[2] = -0.999999;
+	desc->default_pose[5].time = 0.000000;
+	desc->default_pose[5].space = 6;
+	desc->default_pose[6].pos[0] = -1.499999;
+	desc->default_pose[6].pos[1] = -1.000000;
+	desc->default_pose[6].pos[2] = -0.999999;
+	desc->default_pose[6].time = 0.000000;
+	desc->default_pose[6].space = 6;
+	desc->default_pose[7].pos[0] = 0.000000;
+	desc->default_pose[7].pos[1] = 1.000000;
+	desc->default_pose[7].pos[2] = 0.000000;
+	desc->default_pose[7].time = 0.000000;
+	desc->default_pose[7].space = 1;
+	desc->default_pose[8].pos[0] = 0.000000;
+	desc->default_pose[8].pos[1] = 0.000000;
+	desc->default_pose[8].pos[2] = 1.000000;
+	desc->default_pose[8].time = 0.000000;
+	desc->default_pose[8].space = 1;
+	desc->default_pose[9].pos[0] = 0.000000;
+	desc->default_pose[9].pos[1] = -1.399999;
+	desc->default_pose[9].pos[2] = 0.000000;
+	desc->default_pose[9].time = 0.000000;
+	desc->default_pose[9].space = 2;
+	desc->default_pose[10].pos[0] = 0.000001;
+	desc->default_pose[10].pos[1] = -1.399999;
+	desc->default_pose[10].pos[2] = 1.500000;
+	desc->default_pose[10].time = 0.000000;
+	desc->default_pose[10].space = 2;
+	desc->default_pose[11].pos[0] = 0.000000;
+	desc->default_pose[11].pos[1] = -2.400003;
+	desc->default_pose[11].pos[2] = 0.000000;
+	desc->default_pose[11].time = 0.000000;
+	desc->default_pose[11].space = 2;
+	desc->event_count = 0;
+}
